@@ -15,13 +15,13 @@ Completed user stories:
 * [x] Required: User can log out from the Settings screen.
  User can follow the sign in flow.
 * [x] Required: User can tap the area for "Having trouble signing in?"
- * [x] Required: User can log out from the Settings screen.
- * [x] Optional: Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
- * [x] Optional: You should be able to swipe through the welcome screens instead of just tapping them.
+* [x] Required: User can log out from the Settings screen.
+* [x] Optional: Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
+* [x] Optional: You should be able to swipe through the welcome screens instead of just tapping them.
 
 Notes:
 
-Spent some time making the UI work across multiple phone resolutions by playing around with the RelativeLayout.
+N/A
 
 Walkthrough of all user stories:
 
