@@ -15,6 +15,7 @@
 		8D0933731BAC89DE00AD9A36 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0933721BAC89DE00AD9A36 /* TermsViewController.swift */; };
 		8D0933751BAC913700AD9A36 /* LastPageCreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0933741BAC913700AD9A36 /* LastPageCreateAccountViewController.swift */; };
 		8D0933771BAC94BC00AD9A36 /* WelcomeOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0933761BAC94BC00AD9A36 /* WelcomeOneViewController.swift */; };
+		8D6B428E1BB20F9C0025F27F /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B428D1BB20F9C0025F27F /* LoginScreenViewController.swift */; };
 		8DBCE0771BAB26F400968933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBCE0761BAB26F400968933 /* AppDelegate.swift */; };
 		8DBCE07C1BAB26F400968933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBCE07A1BAB26F400968933 /* Main.storyboard */; };
 		8DBCE07E1BAB26F400968933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBCE07D1BAB26F400968933 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		8D0933721BAC89DE00AD9A36 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		8D0933741BAC913700AD9A36 /* LastPageCreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastPageCreateAccountViewController.swift; sourceTree = "<group>"; };
 		8D0933761BAC94BC00AD9A36 /* WelcomeOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeOneViewController.swift; sourceTree = "<group>"; };
+		8D6B428D1BB20F9C0025F27F /* LoginScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		8DBCE0731BAB26F400968933 /* dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DBCE0761BAB26F400968933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = dropbox/AppDelegate.swift; sourceTree = "<group>"; };
 		8DBCE07B1BAB26F400968933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				8D0933741BAC913700AD9A36 /* LastPageCreateAccountViewController.swift */,
 				8D0933701BAB7F3C00AD9A36 /* SettingsViewController.swift */,
 				8D0933721BAC89DE00AD9A36 /* TermsViewController.swift */,
+				8D6B428D1BB20F9C0025F27F /* LoginScreenViewController.swift */,
 				8DBCE07A1BAB26F400968933 /* Main.storyboard */,
 				8DBCE0A41BAB273C00968933 /* Supporting Files */,
 			);
@@ -289,6 +292,7 @@
 				8D09332E1BAB40AF00AD9A36 /* CreateAccountRootViewController.swift in Sources */,
 				8D0933731BAC89DE00AD9A36 /* TermsViewController.swift in Sources */,
 				8DBCE0771BAB26F400968933 /* AppDelegate.swift in Sources */,
+				8D6B428E1BB20F9C0025F27F /* LoginScreenViewController.swift in Sources */,
 				8D0933751BAC913700AD9A36 /* LastPageCreateAccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,10 +10,15 @@ import UIKit
 
 class SignInRootViewController: UIViewController {
 
+    var didClickSignIn: Bool = false
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        if(didClickSignIn) {
+            performSegueWithIdentifier("showLoginSegue", sender: nil)
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {

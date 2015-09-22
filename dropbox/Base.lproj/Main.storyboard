@@ -72,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="670" y="336"/>
         </scene>
-        <!--View Controller-->
+        <!--Login Screen View Controller-->
         <scene sceneID="8zB-De-arn">
             <objects>
-                <viewController id="3SU-rj-kFe" sceneMemberID="viewController">
+                <viewController id="3SU-rj-kFe" customClass="LoginScreenViewController" customModule="dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TKE-Vj-Csg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,19 +89,23 @@
                                 <rect key="frame" x="137" y="462" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="Vos-66-aNx" kind="modal" id="5PA-Cd-ZBd"/>
+                                    <action selector="onLogin:" destination="3SU-rj-kFe" eventType="touchUpInside" id="8NL-SB-L7I"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BST-FY-TrT">
                                 <rect key="frame" x="31" y="383" width="261" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="16Q-Wx-PxC" kind="modal" id="iEM-lm-S53"/>
+                                    <action selector="onSignIn:" destination="3SU-rj-kFe" eventType="touchUpInside" id="2kt-4i-vRm"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <segue destination="16Q-Wx-PxC" kind="modal" identifier="signUpSegue" id="Bfg-ZZ-oWo"/>
+                        <segue destination="Vos-66-aNx" kind="modal" identifier="loginSegue" id="OFd-MJ-nTF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kJH-DR-oDM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -137,6 +141,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="42V-Pj-LYr"/>
+                    <connections>
+                        <segue destination="450-jR-kRK" kind="push" identifier="showLoginSegue" id="g8A-tH-HfD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1CF-J9-5Xn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -172,6 +179,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="das-Vf-LoU"/>
+                    <connections>
+                        <segue destination="LVy-b9-PXj" kind="push" identifier="showCreateAccountSegue" id="xI6-hk-9N0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l5u-V7-O7w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -346,7 +356,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vOG-et-WfB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1586" y="336"/>
+            <point key="canvasLocation" x="1616" y="341"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gfk-Ne-otN">
@@ -366,7 +376,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VsM-LD-4CE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1586" y="1026"/>
+            <point key="canvasLocation" x="1504" y="1168"/>
         </scene>
         <!--Sign In View Controller-->
         <scene sceneID="QDP-vc-XSR">
@@ -888,11 +898,11 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vHo-lU-BCL"/>
-        <segue reference="5PA-Cd-ZBd"/>
+        <segue reference="g8A-tH-HfD"/>
+        <segue reference="OFd-MJ-nTF"/>
         <segue reference="K5o-xh-nVg"/>
         <segue reference="3bi-NM-Euo"/>
-        <segue reference="ZRx-Pa-tWB"/>
-        <segue reference="m5v-ek-Vsr"/>
+        <segue reference="Bfg-ZZ-oWo"/>
+        <segue reference="vHo-lU-BCL"/>
     </inferredMetricsTieBreakers>
 </document>
